@@ -1,0 +1,50 @@
+body {
+    background-color: darkgreen;
+
+}
+
+.white-keys kbd {
+    display: inline-block;
+    background-color: white;
+    width: 7vw;
+    height: 10vh;
+    border: solid grey 2px;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 40vh;
+}
+
+.black-keys kbd {
+    display: inline-block;
+    background-color: black;
+    height: 7vh;
+    width: 7vh;
+    color: white;
+    text-align: center;
+    padding-top: 20vh;
+}
+
+.white-keys {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    min-width: 90%;
+    position: relative;
+    top: 20vh;
+}
+
+.WE-keys {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 29.5vw;
+    width: 11vw;
+}
+
+.TYU-keys {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    right: 29.4vw;
+    width: 18.5vw;
+}
